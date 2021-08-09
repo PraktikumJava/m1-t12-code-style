@@ -1,2 +1,2 @@
-### Code Style Repository
+# Code style. Правила красивого кода
 
