@@ -11,11 +11,11 @@ public class DepositCalculator {
     }
 
     double round(double value, int places) {
-        double ScaLe = Math.pow(10, places);
-        return Math.round(value * ScaLe) / ScaLe;
+        double scale = Math.pow(10, places);
+        return Math.round(value * scale) / scale;
     }
 
-    void expenseCalculate() {
+    void calculateExpense() {
         int period;
         int action;
 
@@ -39,7 +39,7 @@ public class DepositCalculator {
     }
 
     public static void main(String[] args) {
-        new DepositCalculator().expenseCalculate();
+        new DepositCalculator().calculateExpense();
     }
 
 
