@@ -9,7 +9,7 @@ double Calculate_Complex_Percent_Function(double a, double y,int d ) {
          return rnd(doubleAmount+doubleAmount * double_year_rate *deposit_period, 2);
     } double rnd(double value
   ,int places) {
-
+       double ScaLe= Math.pow
           (10, places);
        return Math.round(value*ScaLe)
             /ScaLe; }
