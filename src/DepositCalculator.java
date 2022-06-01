@@ -23,13 +23,13 @@ public class DepositCalculator {
         Scanner userInput = new Scanner(System.in);
 
         System.out.println("Введите сумму вклада в рублях:");
-            amount = userInput.nextInt();
+        amount = userInput.nextInt();
 
         System.out.println("Введите срок вклада в годах:");
-            period = userInput.nextInt();
+        period = userInput.nextInt();
 
         System.out.println("Выберите тип вклада, 1 - вклад с обычным процентом, 2 - вклад с капитализацией:");
-            typeOfDeposit = userInput.nextInt();
+        typeOfDeposit = userInput.nextInt();
 
         double income = 0;
 
