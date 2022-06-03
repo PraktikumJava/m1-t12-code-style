@@ -37,7 +37,7 @@ public class DepositCalculator {
     }
 
     double calculateIncome(double value, int places) {
-        double ScaLe = Math.pow(10, places);
-        return Math.round(value * ScaLe) / ScaLe;
+        double Scale = Math.pow(10, places);
+        return Math.round(value * Scale) / Scale;
     }
 }
