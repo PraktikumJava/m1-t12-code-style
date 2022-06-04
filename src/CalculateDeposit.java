@@ -29,11 +29,13 @@ public class CalculateDeposit {
         action = scanner.nextInt();
 
         double outDoubleVar = 0;
+
         if (action ==1) {
             outDoubleVar = calculateSimplePercent(amount, 0.06, period);
         } else if (action == 2) {
             outDoubleVar = calculateComplexPercent(amount, 0.06, period);
         }
+
         System.out.println("Результат вклада: " + amount + " за " + period + " лет превратятся в " + outDoubleVar);
     }
 
