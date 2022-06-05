@@ -12,11 +12,11 @@ public class CalculateDeposit {
 
     double calculateAmount(double value, int places) {
         double ScaLe = Math.pow(10, places);
-        return Math.round(value * ScaLe) / ScaLe;
+        return Math.round(value * ScaLe) / ScaLe; // лучше использовать scale
     }
 
     void printMenu() {
-        int period, action;
+        int period, action; // лучше перенести переменную на вторую строку
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Введите сумму вклада в рублях:");
@@ -28,7 +28,7 @@ public class CalculateDeposit {
         System.out.println("Выберите тип вклада, 1 - вклад с обычным процентом, 2 - вклад с капитализацией:");
         action = scanner.nextInt();
 
-        double outDoubleVar = 0;
+        double outDoubleVar = 0; // лучше переименовать и дать говорящее название
 
         if (action ==1) {
             outDoubleVar = calculateSimplePercent(amount, 0.06, period);
@@ -43,3 +43,4 @@ public class CalculateDeposit {
         new CalculateDeposit().printMenu();
     }
 }
+// правки незначительные, код красивый и читабельный
