@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class DepositCalculator {
+    Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         new DepositCalculator().calculateIncome();
     }
@@ -21,7 +22,6 @@ public class DepositCalculator {
     }
 
     void calculateIncome() {
-        Scanner scanner = new Scanner(System.in);
         int period;
         int action;
         double total = 0;
