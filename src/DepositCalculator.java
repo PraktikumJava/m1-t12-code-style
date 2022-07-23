@@ -19,43 +19,23 @@ public class DepositCalculator {
     void calculateDeposit() {
         int period;
         int action;
-
+        int amount;
+        double totalAmount;
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Введите сумму вклада в рублях:");
-        int amount = scanner.nextInt();
+        amount = scanner.nextInt();
         System.out.println("Введите срок вклада в годах:");
         period = scanner.nextInt();
         System.out.println("Выберите тип вклада, 1 - вклад с обычным процентом, 2 - вклад с капитализацией:");
         action = scanner.nextInt();
-        double totalAmount = 0;
+
         if (action == 1) {
             totalAmount = calculateSimplePercent(amount, 0.06, period);
         } else if (action == 2) {
             totalAmount = calculateComplexPercent(amount, 0.06, period);
         }
         System.out.println("Результат вклада: " + amount + " за " + period + " лет превратятся в " + totalAmount);
-
-        System.out.println("period = " + period);
-        System.out.println();
-        for (Object o : ) {
-
-        }
-
-
-    }
-
-    public static void main(String[] args) {
-        System.out.println("DepositCalculator.main");
-        System.out.println("args = " + Arrays.deepToString(args));
-        if (args == null) {
-
-        }
-        for (String arg : args) {
-
-
-        }
-
-        
     }
 
     public static void main(String[] args) {
