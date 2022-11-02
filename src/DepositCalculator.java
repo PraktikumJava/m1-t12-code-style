@@ -11,11 +11,11 @@ public class DepositCalculator {
     }
 
     double round(double value, int places) {
-        double ScaLe = Math.pow(10, places); // scale обычная переменная
-        return Math.round(value * ScaLe) / ScaLe; 
+        double scale = Math.pow(10, places); // scale обычная переменная
+        return Math.round(value * scale) / scale;
     }
 
-    void calculateIncomeOnADeposit() { // артикул вроде не пишется А в calculateIncomeOnADeposit 
+    void calculateIncomeOnDeposit() { // артикул вроде не пишется А в calculateIncomeOnADeposit
         int years;
         int action;
         Scanner scanner = new Scanner(System.in);
@@ -37,6 +37,6 @@ public class DepositCalculator {
     }
 
     public static void main(String[] args) {
-        new DepositCalculator().calculateIncomeOnADeposit();
+        new DepositCalculator().calculateIncomeOnDeposit();
     }
 }
