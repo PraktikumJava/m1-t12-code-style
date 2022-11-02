@@ -11,15 +11,15 @@ public class DepositCalculator {
     }
 
     double round(double value, int places) {
-        double ScaLe = Math.pow(10, places);
-        return Math.round(value * ScaLe) / ScaLe;
+        double ScaLe = Math.pow(10, places); // scale обычная переменная
+        return Math.round(value * ScaLe) / ScaLe; 
     }
 
-    void calculateIncomeOnADeposit() {
+    void calculateIncomeOnADeposit() { // артикул вроде не пишется А в calculateIncomeOnADeposit 
         int years;
         int action;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите сумму вклада в рублях:");
+        System.out.println("Введите сумму вклада в рублях:"); 
 
         int amount = scanner.nextInt();
         System.out.println("Введите срок вклада в годах:");
