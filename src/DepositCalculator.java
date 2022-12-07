@@ -11,8 +11,8 @@ public class DepositCalculator {
     }
 
     double round(double value, int places) {
-        double ScaLe = Math.pow(10, places);
-        return Math.round(value * ScaLe) / ScaLe;
+        double scale = Math.pow(10, places); //предлагаю переименовать в lowCase
+        return Math.round(value * scale) / scale; //предлагаю переименовать в lowCase
     }
 
     void calculateDeposit() {
