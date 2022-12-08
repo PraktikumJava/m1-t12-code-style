@@ -16,7 +16,9 @@ public class DepositCalculator {
     }
 
     void calculateDeposit() {
-        int period, action;
+        int period;
+        int action;
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите сумму вклада в рублях:");
         int amount = scanner.nextInt();
