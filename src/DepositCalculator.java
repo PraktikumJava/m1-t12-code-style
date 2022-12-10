@@ -44,6 +44,6 @@ public class DepositCalculator {
 
     public static void main(String[] args) {
         new DepositCalculator().calculateSimpleOrComplexPercent();
-        // change on gitHub
     }
+
 }
