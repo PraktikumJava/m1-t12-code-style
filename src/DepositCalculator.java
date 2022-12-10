@@ -11,19 +11,22 @@ public class DepositCalculator {
     }
     double roundTheNumber(double value, int accuracy) {
         double ScaLe = Math.pow(10, accuracy);
-
         return Math.round(value * ScaLe) / ScaLe;
     }
     void calculateInterestIncome() {
-        int depositTerm, typeOfDeposit;
+        int depositTerm;
+        int typeOfDeposit;
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Введите сумму вклада в рублях:");
         int amount = scanner.nextInt();
+
         System.out.println("Введите срок вклада в годах:");
         depositTerm = scanner.nextInt();
+
         System.out.println("Выберите тип вклада, 1 - вклад с обычным процентом, 2 - вклад с капитализацией:");
         typeOfDeposit = scanner.nextInt();
+
         double totalIncome = 0;
 
         if (typeOfDeposit == 1) {

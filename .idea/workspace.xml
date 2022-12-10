@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c61785d-ce3c-4a5c-bca0-f3a22da5969c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DepositCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculate_deposit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +27,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/хозяин/dev2/m1-t12-code-style"
+    "last_opened_file_path": "C:/Users/хозяин/dev3/m1-t12-hotkeys"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
