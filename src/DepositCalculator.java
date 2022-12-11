@@ -18,7 +18,7 @@ public class DepositCalculator {
     void calculateSimpleOrComplexPercent() {
         int depositAmount;
         int depositPeriod;
-        int userAction;
+        int USERAction;
 
         Scanner scanner = new Scanner(System.in);
 
