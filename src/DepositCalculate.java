@@ -7,9 +7,7 @@ public class DepositCalculate {
     }
 
     static double calculateComplexPercent(double amount, double yearRate, int deposit) {
-        double pay = amount * Math.pow((1 + yearRate / 12), 12 * deposit);
-
-        return round(pay, 2);
+        return round(amount * Math.pow((1 + yearRate / 12), 12 * deposit), 2);
     }
 
     static double calculateSimplePercent(double amount, double yearRate, int deposit) {
