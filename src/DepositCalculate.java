@@ -19,7 +19,7 @@ public class DepositCalculate {
 
         return Math.round(value * scaLe) / scaLe;
     }
-    
+
     static void printCalculate() {
         Scanner scanner = new Scanner(System.in);
 
