@@ -45,5 +45,4 @@ public class DepositCalculator {
         new DepositCalculator().calculateIncomeSum();
     }
 
-
 }
