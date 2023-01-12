@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 public class DepositCalculator {
     double calculateComplexPercent(double amount, int period) {
-        double pay = amount * Math.pow((1 + 0.06 / 12), 12 * period);
-
-        return round(pay);
+        return round(amount * Math.pow((1 + 0.06 / 12), 12 * period));
     }
 
     double calculateSimplePercent(double amount, int depositPeriod) {
