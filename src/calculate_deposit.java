@@ -38,8 +38,4 @@ public class calculate_deposit
     public static void main(String[] args) {
         new calculate_deposit().doImportantJob();
     }
-
-
-
-
 }
