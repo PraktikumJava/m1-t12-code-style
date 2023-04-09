@@ -19,7 +19,7 @@ public class DepositCalculator {
         int depositPeriod;
         int depositType;
         int moneyContributed;
-
+        
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите сумму вклада в рублях:") ;
         moneyContributed = scanner.nextInt();
