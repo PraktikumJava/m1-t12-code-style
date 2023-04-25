@@ -6,8 +6,8 @@ public class DepositCalculator {
         return roundValue(pay, 2);
     }
 
-    double calculateSimplePercent(double amount, double yearRate, int depositPeriod) {
-        return roundValue(amount + amount * yearRate * depositPeriod, 2);
+    double calculateSimplePercent(double amount, double yearRate, int period) {
+        return roundValue(amount + amount * yearRate * period, 2);
     }
 
     double roundValue(double value, int places) {
@@ -27,6 +27,7 @@ public class DepositCalculator {
         System.out.println("Выберите тип вклада, 1 - вклад с обычным процентом, 2 - вклад с капитализацией:");
         action = scanner.nextInt();
         double depositSum = 0;
+
         if (action == 1) {
             depositSum = calculateSimplePercent(amount, 0.06, period);
         } else if (action == 2) {
