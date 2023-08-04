@@ -38,5 +38,6 @@ public class DepositCalculator {
 
     public static void main(String[] args) {
         new DepositCalculator().printDepositSum();
+        System.out.println("123");
     }
 }
